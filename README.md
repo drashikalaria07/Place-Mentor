@@ -1,60 +1,62 @@
-# Place-Mentor
-PlaceMentor is a web application designed to assist students in navigating campus placements by providing job and internship opportunities, along with the ability to share and view personal placement experiences. The app features a user-friendly interface built using React.js with Material UI for styling and supports dynamic job listings fetched from the jobs API.
+# PlaceMentor
 
-# Features
+**PlaceMentor** is a web application designed to assist students in navigating campus placements by providing job and internship opportunities, along with the ability to share and view personal placement experiences. The app features a user-friendly interface built using React.js with Material UI for styling and supports dynamic job listings fetched from the jobs API.
 
-- Placement Insights:
-A dedicated page where students can share their campus placement experiences. Users can view a list of experiences, click for detailed views, and add their own stories.
+## Features
 
-- Job/Internship Opportunities:
-A page listing various job and internship opportunities using the Jobs API.
+- **Placement Insights**:  
+  A dedicated page where students can share their campus placement experiences. Users can view a list of experiences, click for detailed views, and add their own stories.
 
-- Responsive Design:
-The application is built with Material UI to ensure a modern, responsive interface that works across devices.
+- **Job/Internship Opportunities**:  
+  A page listing various job and internship opportunities using the Jobs API.
 
-- Add Experience:
-A simple form for students to add their own placement experiences, contributing to the community.
+- **Responsive Design**:  
+  The application is built with Material UI to ensure a modern, responsive interface that works across devices.
 
-- Resource Page:
-A page that provides various resources related to campus placements, including interview preparation, resume building, and coding platforms.
+- **Add Experience**:  
+  A simple form for students to add their own placement experiences, contributing to the community.
 
-# Pages
+- **Resource Page**:  
+  A page that provides various resources related to campus placements, including interview preparation, resume building, and coding platforms.
 
-1. Placement Insights:
-> Displays a list of placement experiences.
-> A detail view when an experience is clicked.
-> Add Experience' button for submitting new stories.
+## Pages
 
-2. Opportunities:
-> Lists job and internship opportunities.
-> Fetches dynamic data from the GitHub Jobs API.
+1. **Placement Insights**:
+   - Displays a list of placement experiences.
+   - A detail view when an experience is clicked.
+   - 'Add Experience' button for submitting new stories.
 
-3. Resources:
-> Provides links and resources for campus placement preparation, including articles, books, and websites for coding, aptitude, and interview prep.
+2. **Opportunities**:
+   - Lists job and internship opportunities.
+   - Fetches dynamic data from the GitHub Jobs API.
 
-4. Home:
->Welcome page with useful resources and user reviews.
+3. **Resources**:
+   - Provides links and resources for campus placement preparation, including articles, books, and websites for coding, aptitude, and interview prep.
 
-# Technologies Used
+4. **Home**:
+   - Welcome page with useful resources and user reviews.
 
-- Frontend: React.js with Material UI
-- Backend: Express.js, Node.js
-- Database: MongoDB
+## Technologies Used
 
-# Installation
+- **Frontend**: React.js with Material UI
+- **Backend**: Express.js, Node.js
+- **Database**: MongoDB
+
+## Installation
 
 1. Clone the repository:
 
-" git clone https://github.com/your-username/placeMentor.git "
-
+   ```bash
+   git clone https://github.com/your-username/placeMentor.git
 2. Navigate to the project directory:
-
-" cd placeMentor "
-
+   
+   ```bash
+   cd placeMentor
 3. Install dependencies:
-
-" npm install "
-
+   
+   ```bash
+   npm install
 4. Start the development server:
-
-" npm start "
+   
+   ```bash
+   npm start
